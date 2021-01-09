@@ -40,7 +40,7 @@ while count>0:
 			print('\t Oops!! THE GAME IS OVER!! Better luck next time. \n\t\t The number was',x)
 			break
 if level==2:                 #LEVEL 2 STARTS
-	print('\n\n\t\t\tLEVEL 2 \n\n\t In this level you have 5 chances to guess the number, \n\t You have 100 points and each guess decrements 20 points\n\n \t\t\t LET\'S START')     #EDIT HERE
+	print('\n\n\t\t\tLEVEL 2 \n\n\t In this level you have 5 chances to guess the number, \n\t You have 100 points and each guess decrements 20 points\n\n \t\t\t LET\'S START')
 	x=random.randint(0,100)                                            
 	count=5
 	while count>0:
